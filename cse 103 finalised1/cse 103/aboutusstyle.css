@@ -1,0 +1,120 @@
+body{
+    background-color: #9dbeb962;
+}
+
+.main{
+    margin: 0px;
+    padding:0px;
+    width:90%;
+    height: 80px;
+    position:relative;
+}
+
+
+nav{
+   
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background-color: #07242c;
+    box-shadow: 3px 3px 3px #07242c ;
+    padding:0 30px;
+    z-index:1;
+    width:100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+}
+.menu {
+    margin-left: 400px;
+}
+nav ul{
+     
+    display:flex;
+    margin:0;
+    padding:0;
+}
+nav ul li a{
+ 
+    height: 40px;
+    line-height: 43px;
+    margin: 9px;
+    float: right;
+    padding: 0px 7px;
+    display:flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: bisque;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+}
+nav ul li a:hover{
+ 
+    border-radius: 3.5px;
+    background-color: whitesmoke;
+    color:#152a30 ;
+    font-weight: 500;
+    box-shadow: 2px 2px 20px #0d28304d  ;
+}
+.active{
+    background-color:#07242c;
+    color: white;
+    box-shadow: 2px 2px 20px #0d28304d  ;
+}
+a{
+    text-decoration: none ;
+}
+.name{
+    font-family: 'Monoton', cursive;
+    font-size: 20px;
+    /* padding-top: 20px; */
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+.heading{
+    font-size: 70px;
+    font-family: 'Lora', serif;
+    color: #07242c;
+    text-align: center;
+}
+.desc{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 100px;
+}
+img{
+    border-radius: 50%;
+    /* position: absolute; */
+}
+.pictures{
+    height: 50vh;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top:50px;
+   
+}
+figcaption{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #07242c;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+ul {
+    margin-left: 350px;
+    list-style-position: inside;
+ 
+    }
+
+li{
+    font-size: 25px;
+    color:#07242c;
+    font-family:'Times New Roman', Times, serif;
+    /* text-align: center; */
+
+}
